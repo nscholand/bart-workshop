@@ -1,0 +1,8 @@
+#!/bin/bash
+
+python3 -m bash_kernel.install
+
+# Not sure about that part...
+export TOOLBOX_PATH=~/bart
+export PATH=~/.bin:$PATH
+
